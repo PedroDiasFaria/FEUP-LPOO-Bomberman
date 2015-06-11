@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="MyTileset" tilewidth="32" tileheight="32">
+  <image source="Level1/MyTileset.png" width="224" height="192"/>
+  <tile id="7">
+   <properties>
+    <property name="collision" value="true"/>
+    <property name="destructible" value="false"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Ground" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYBzFo3gUj+JRPKwwAFOoAXg=
+  </data>
+ </layer>
+ <layer name="PowerUps" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMNwAAAXcAAE=
+  </data>
+ </layer>
+ <layer name="Walls" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFQwlwEIkptQOZxqdmqNiBK2yoZQc+saFqBzlqBoMdtM4fQwUAAHUpAVE=
+  </data>
+ </layer>
+ <layer name="Enemies" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMNwAAAXcAAE=
+  </data>
+ </layer>
+</map>

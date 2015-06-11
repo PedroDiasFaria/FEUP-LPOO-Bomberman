@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="MyTileset" tilewidth="32" tileheight="32">
+  <image source="../maptileset/MyTileset.png" trans="ff00ff" width="224" height="192"/>
+  <tile id="6">
+   <properties>
+    <property name="powerUp" value="true"/>
+    <property name="powerUpType" value="2"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="collision" value="true"/>
+    <property name="destructible" value="false"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="collision" value="true"/>
+    <property name="destructible" value="false"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="collision" value="true"/>
+    <property name="destructible" value="false"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="collision" value="true"/>
+    <property name="destructible" value="false"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="collision" value="true"/>
+    <property name="destructible" value="false"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="collision" value="true"/>
+    <property name="destructible" value="false"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="powerUp" value="true"/>
+    <property name="powerUpType" value="1"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="collision" value="true"/>
+    <property name="destructible" value="true"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="collision" value="true"/>
+    <property name="destructible" value="true"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="collision" value="true"/>
+    <property name="destructible" value="true"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="collision" value="true"/>
+    <property name="destructible" value="true"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="collision" value="true"/>
+    <property name="destuctible" value="true"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="collision" value="true"/>
+    <property name="destructible" value="true"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="powerUp" value="true"/>
+    <property name="powerUpType" value="5"/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="powerUp" value="true"/>
+    <property name="powerUpType" value="4"/>
+   </properties>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="enemie" value="true"/>
+    <property name="enemieType" value="1"/>
+   </properties>
+  </tile>
+  <tile id="29">
+   <properties>
+    <property name="enemie" value="true"/>
+    <property name="enemieType" value="2"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="enemie" value="true"/>
+    <property name="enemieType" value="3"/>
+   </properties>
+  </tile>
+  <tile id="32">
+   <properties>
+    <property name="enemie" value="true"/>
+    <property name="enemieType" value="5"/>
+   </properties>
+  </tile>
+  <tile id="34">
+   <properties>
+    <property name="powerUp" value="true"/>
+    <property name="powerUpType" value="3"/>
+   </properties>
+  </tile>
+  <tile id="41">
+   <properties>
+    <property name="exit" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="43" name="Background" tilewidth="32" tileheight="32">
+  <image source="../sprites/Background.png" trans="ff00ff" width="800" height="640"/>
+ </tileset>
+ <layer name="Ground" width="25" height="20" opacity="0.99">
+  <data encoding="base64" compression="zlib">
+   eJztw1VWQlEAAMDneixswS7EQhDsbkWxu7tlzc4a/L5zzpRHUVRhpVVWG7PGWuust8FGm2w2bsIWW22z3Q477bLbHnvtM2m/KQccdMhhR0w7asasY+bMO+6Ek0457YyzzjnvgosuueyKq6657oabbrltwR13LbrnvgceeuSxJ5565rkXXnrltTfeeue9Dz765LMvvvrmux9++uW3P/5asiwMwzAM//EPPTIlsw==
+  </data>
+ </layer>
+ <layer name="Power-Ups" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFowAB+MjUJ0onPdiAMpXMGYxAhkQxcuOPWoAWccFOJ3PIdbsWmfrQAbXyA7mA3HCmVf7DZy610gQ2QG48DHTeAwEAqasByA==
+  </data>
+ </layer>
+ <layer name="Wall" width="25" height="20" opacity="0.56">
+  <data encoding="base64" compression="zlib">
+   eJztlMEKwCAMQ3v05v//7U6D8EimF8sOFkIxwdTWzaobf4rRhDcm+Cm8C9XdPu2hRCPolTKhvsPwOzWTJ/e6/lLP9CbP2ScugfNczVfPkfqY4JxW0J1Gf+rOayCztlt31uiYlZ69685PfLsd/+CO5yqv3pLUM70YvPOvN/E0Hqa6DZs=
+  </data>
+ </layer>
+ <layer name="Enemies" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4A4oDjQDhjEQJYAfxSMglEwCmgNAMcDAFw=
+  </data>
+ </layer>
+</map>
