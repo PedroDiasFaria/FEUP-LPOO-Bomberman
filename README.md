@@ -9,12 +9,10 @@ The game features 6 single player levels with different enemies and a local mult
 
 #Initial Menu
 <img src="https://dl.dropboxusercontent.com/u/15655441/11418265_981343995250099_1770512484_n.jpg" width="350" height="350" />
-<img src="https://dl.dropboxusercontent.com/u/15655441/11414809_981400838577748_831451222_n.jpg" width="350" height="350" />
 #Levels
 <img src="https://dl.dropboxusercontent.com/u/15655441/11212488_981401981910967_771503546_n.jpg" width="350" height="350" />
 <img src="https://dl.dropboxusercontent.com/u/15655441/11358707_981356238582208_656435485_n.jpg" width="350" height="350" />
 #Multiplayer Mode
-<img src="https://dl.dropboxusercontent.com/u/15655441/11421638_981400895244409_171564448_n.jpg" width="350" height="350" />
 <img src="https://dl.dropboxusercontent.com/u/15655441/11304040_981346845249814_457353893_n.jpg" width="350" height="350" />
 
 
